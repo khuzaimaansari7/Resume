@@ -56,6 +56,12 @@
     padding-bottom: 2rem;
     border-bottom: 0.2rem solid rgba(255,255,255,0.2);
 }
+
+.contact_info .line li:hover{
+    background-color: #03a9f4;
+    transition: all 0.7s;
+
+}
 .contact_info ul li{
     position: relative;
     list-style: none;
@@ -72,6 +78,11 @@
     color: #fff;
     font-weight: 500;
     font-size: 1.1rem;
+}
+.contact_info ul.edu{
+    position: relative;
+    padding-bottom: 2rem;
+    border-bottom: 0.2rem solid rgba(255,255,255,0.2);
 }
 .contact_info.education li{
     margin-bottom: 2rem;

@@ -81,6 +81,18 @@ p{
     font-style: italic;
     text-transform: uppercase;
 }
+
+/* visited link */
+a:visited {
+    color: #848c99;
+}
+
+/* mouse over link */
+a:hover {
+    color: #03a9f4;
+    transition: all 0.7s;
+}
+
 .interest ul{
     display: grid;
     grid-template-columns: repeat(4,1fr);
